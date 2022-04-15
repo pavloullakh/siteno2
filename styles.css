@@ -1,0 +1,637 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1170px;
+    margin: 0 auto;
+    background-color: #333333;
+    /*background-color: red;*/
+}
+
+.container {
+    display: flex;
+}
+
+.dropdown-menu {
+    display: flex;
+}
+
+.header-image {
+    max-height: 70px;
+    max-width: 70px;
+}
+
+.white {
+    background-color: #fff;
+    color: white;
+    height: 70px;
+    width: 1090px;
+}
+
+/* Style the submit button */
+form.example button {
+    float: right;
+    padding: 21px;
+    background: white;
+    color: black;
+    font-size: 22px;
+    border: none;
+    /* Prevent double borders */
+    cursor: pointer;
+}
+
+/*form.example button:hover {
+    background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.trees {
+    margin: 25px 0 25px 0;
+}
+
+.link-color {
+    color: white;
+}
+
+.big-pic {
+    position: relative;
+}
+
+.texts {
+    top: 2%;
+    left: 5%;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-family: 'Lato',
+    sans-serif;
+}
+
+.suptitle {
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight:500;
+    font-size: 48px;
+    line-height: 1;
+}
+
+.subtitle {
+    font-size: 16px;
+}
+
+.small-images-insta-button {
+    display: flex;
+}
+
+.small-pic {
+    position: relative;
+    margin: 25px 25px 25px 0;
+}
+
+.fab-fa {
+    position: absolute;
+    font-size: 35px;
+    z-index: 2;
+    top: 2%;
+    left: 4%;
+}
+
+.fab-fa a {
+    color: white;
+}
+
+.fab-fa a:hover {
+    color: blue;
+}
+
+.arrow {
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    position: absolute;
+    left: 82%;
+    bottom: 6%;
+}
+
+.arrow a {
+    text-decoration: none;
+    color: white;
+}
+
+.arrow a:hover {
+    color: blue;
+}
+
+.trees {
+    position: relative;
+}
+
+.texts2 {
+    top: 2%;
+    left: 5%;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-family: 'Lato',
+    sans-serif;
+}
+
+.trees-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight:500;
+    font-size: 48px;
+    line-height: 1;
+}
+
+.trees-suptitle {
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.trees-subtitle {
+    font-size: 16px;
+}
+
+.trees-arrow {
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    position: absolute;
+    left: 79%;
+    bottom: 6%;
+}
+
+.trees-arrow a {
+    text-decoration: none;
+    color: white;
+}
+
+.trees-arrow a:hover {
+    color: blue;
+}
+
+.billboard {
+    position: relative;
+    margin-right: 50px;
+}
+
+.texts3 {
+    top: 2%;
+    left: 5%;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-family: 'Lato',
+        sans-serif;
+}
+
+.billboard-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+}
+
+.billboard-suptitle {
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.billboard-subtitle {
+    font-size: 16px;
+}
+
+.billboard-arrow {
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    position: absolute;
+    left: 86%;
+    bottom: 11%;
+}
+
+.billboard-arrow a {
+    text-decoration: none;
+    color: white;
+}
+
+.billboard-arrow a:hover {
+    color: blue;
+}
+/*Hand Underwater*/
+
+.hand-underwater {
+    position: relative;
+    margin-top: 20px;
+}
+
+.hand-underwater-texts {
+    top: 2%;
+    left: 3%;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-family: 'Lato',
+        sans-serif;
+}
+
+.hand-underwater-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+}
+
+.hand-underwater-suptitle {
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.hand-underwater-subtitle {
+    font-size: 16px;
+}
+
+.hand-underwater-arrow {
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    position: absolute;
+    left: 90%;
+    bottom: 6%;
+}
+
+.hand-underwater-arrow a {
+    text-decoration: none;
+    color: white;
+}
+
+.hand-underwater-arrow a:hover {
+    color: blue;
+}
+
+/*Sunset*/
+
+.sunset {
+    position: relative;
+    margin-top: 20px;
+}
+
+.sunset-texts {
+    top: 4%;
+    left: 3%;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-family: 'Lato',
+        sans-serif;
+}
+
+.sunset-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+}
+
+.sunset-suptitle {
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.sunset-subtitle {
+    font-size: 16px;
+}
+
+.sunset-arrow {
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    position: absolute;
+    left: 90%;
+    bottom: 6%;
+}
+
+.sunset-arrow a {
+    text-decoration: none;
+    color: white;
+}
+
+.sunset-arrow a:hover {
+    color: blue;
+}
+
+/*Turtle&Shark*/
+
+.turtle {
+    position: relative;
+    margin: 25px 25px 25px 0;
+}
+
+.fab-fa-turtle {
+    position: absolute;
+    font-size: 35px;
+    z-index: 2;
+    top: 2%;
+    left: 3%;
+}
+
+.fab-fa-turtle a {
+    color: white;
+}
+
+.fab-fa-turtle a:hover {
+    color: blue;
+}
+
+/*Shore*/
+
+.shore {
+    position: relative;
+    margin-top: 25px;
+}
+
+.shore-texts {
+    top: 4%;
+    left: 5%;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-family: 'Lato',
+        sans-serif;
+}
+
+.shore-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+}
+
+.shore-suptitle {
+    margin-bottom: 48px;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.shore-subtitle {
+    font-size: 16px;
+}
+
+.shore-arrow {
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    position: absolute;
+    left: 85%;
+    bottom: 6%;
+}
+
+.shore-arrow a {
+    text-decoration: none;
+    color: white;
+}
+
+.shore-arrow a:hover {
+    color: blue;
+}
+
+/*Hat in cafe*/
+
+.hat-in-cafe {
+    position: relative;
+    margin-top: 25px;
+}
+
+.hat-in-cafe-texts {
+    top: 3%;
+    left: 5%;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-family: 'Lato',
+        sans-serif;
+}
+
+.hat-in-cafe-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+}
+
+.hat-in-cafe-suptitle {
+    margin-bottom: 48px;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.hat-in-cafe-subtitle {
+    font-size: 16px;
+}
+
+.hat-in-cafe-arrow {
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    position: absolute;
+    left: 81%;
+    bottom: 5%;
+}
+
+.hat-in-cafe-arrow a {
+    text-decoration: none;
+    color: white;
+}
+
+.hat-in-cafe-arrow a:hover {
+    color: blue;
+}
+
+/*Endless Pool*/
+
+.endless-pool {
+    position: relative;
+    margin-top: 25px;
+}
+
+.endless-pool-texts {
+    top: 4%;
+    left: 5%;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-family: 'Lato',
+        sans-serif;
+}
+
+.endless-pool-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+}
+
+.endless-pool-suptitle {
+    margin-bottom: 48px;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.endless-pool-subtitle {
+    font-size: 16px;
+}
+
+.endless-pool-arrow {
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    position: absolute;
+    left: 82%;
+    bottom: 6%;
+}
+
+.endless-pool-arrow a {
+    text-decoration: none;
+    color: white;
+}
+
+.endless-pool-arrow a:hover {
+    color: blue;
+}
+
+/*Bungalow*/
+
+.bungalow {
+    position: relative;
+    margin-top: 25px;
+}
+
+.bungalow-texts {
+    top: 3%;
+    left: 5%;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-family: 'Lato',
+        sans-serif;
+}
+
+.bungalow-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+}
+
+.bungalow-suptitle {
+    margin-bottom: 48px;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.bungalow-subtitle {
+    font-size: 16px;
+}
+
+.bungalow-arrow {
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    position: absolute;
+    left: 81%;
+    bottom: 5%;
+}
+
+.bungalow-arrow a {
+    text-decoration: none;
+    color: white;
+}
+
+.bungalow-arrow a:hover {
+    color: blue;
+}
+
+/*Footer hat*/
+
+.footer-hat {
+    position: relative;
+    margin-top: 22px;
+}
+
+.footer-hat-texts {
+    top: 4%;
+    left: 3%;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-family: 'Lato',
+        sans-serif;
+}
+
+.footer-hat-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+}
+
+.footer-hat-suptitle {
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.footer-hat-subtitle {
+    font-size: 16px;
+}
+
+.footer-hat-arrow {
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    position: absolute;
+    left: 90%;
+    bottom: 10%;
+}
+
+.footer-hat-arrow a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-hat-arrow a:hover {
+    color: blue;
+}
+
+.spinner {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    margin: 40px 0;
+}
